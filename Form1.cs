@@ -48,8 +48,10 @@ namespace SSHRandD
                     }
                 };
                 client.Connect();
-                var sshcommand= client.CreateCommand("ls");
-                var result=sshcommand.Execute();
+               // var sshcommand= client.CreateCommand("sudo usermod -aG sudo sajidur");
+               // var result=sshcommand.Execute();
+                var res=client.RunCommand("sudo -S <<< Asa@12345 docker ps");
+                var run = client.RunCommand("sudo -S <<< Asa@12345  docker kill c86af32565d1");
             }
         }
     }
