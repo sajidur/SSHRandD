@@ -1,7 +1,4 @@
 using Renci.SshNet;
-using System.Diagnostics;
-using System.Text;
-
 namespace SSHRandD
 {
     public partial class Form1 : Form
