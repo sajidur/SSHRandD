@@ -18,8 +18,8 @@ namespace SSHRandD
         private void RunCommand()
         {
             var host = "192.168.240.11";
-            var username = "sajidur";
-            var password = "Asa@12345";
+            var username = "";
+            var password = "";
 
             byte[] expectedFingerPrint = new byte[] {
                                             0x66, 0x31, 0xaf, 0x00, 0x54, 0xb9, 0x87, 0x31,
